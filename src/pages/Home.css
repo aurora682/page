@@ -1,0 +1,236 @@
+.Header {
+    background-color: #D62558; /* Café */
+    color: #ffffff; /* Texto en blanco */
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end; /* Alinea los elementos hacia la derecha */
+    align-items: center; /* Alinea los elementos en el centro verticalmente */
+  }
+  
+  .HeaderText {
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .HeaderText a {
+    color: #ffffff; /* Texto en blanco para los enlaces */
+    margin-left: 10px; /* Añade un espacio entre los enlaces */
+  }
+  
+  
+  /* Titulo.css */
+  .Titulo {
+    background-color: #FF346F; /* Café */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .TituloMarca {
+    font-size: 36px; /* Tamaño de título */
+    margin: 0;
+    color: #FFF; /* Texto en blanco */
+  }
+  
+  /* TuArchivoDeEstilos.css */
+  .LogoMarca {
+    max-width: 110%;
+    height: auto;
+    max-height: 100px; /* Ajusta según tus preferencias */
+  }
+  
+  /* Categorias.css */
+  .Categorias {
+    background-color: #FF346F; /* Café */
+    display: flex;
+    justify-content: space-around; /* Espacio entre elementos */
+    padding: 20px;
+  }
+  
+  .Categoria {
+    color: #FFF; /* Texto en blanco */
+    font-size: 18px;
+    margin: 0 10px; /* Espacio horizontal entre elementos */
+    text-decoration: none;
+  }
+  
+  /* Eslogan.css */
+  .Eslogan {
+    text-align: center;
+    background-color: #FF346F; /* Fondo café */
+    padding: 20px; /* Aumenta el padding para dar espacio al texto */
+  }
+  
+  .EsloganText {
+    font-size: 35px;
+    color: #ffffff; /* Color del texto en blanco */
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  
+  /* Recomendaciones.css */
+  
+  .Recomendaciones {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    color: #000000;
+  }
+  
+  .TituloRecomendaciones {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Recomendaciones.css */
+  
+  .Recomendaciones {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    color: #000000;
+  }
+  
+  .TituloRecomendaciones {
+    font-size: 24px;
+  }
+  
+  .Productos {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    overflow-x: auto;
+  }
+  
+  .Producto {
+    text-align: center;
+    margin: 10px;
+    width: 30%; /* Ajusta el ancho del contenedor para 3 columnas */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Producto img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .ProductoInfo {
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  
+  /* Marcas.css */
+  .Marcas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .Columna {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Marca {
+    text-align: center;
+    margin: 20px; /* Aumenta el margen para dar más espacio */
+  }
+  
+  .ImagenMarca {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    width: 300px; /* Ajusta el tamaño de las imágenes según tus preferencias */
+  }
+  
+  .Marca p {
+    margin-top: 10px;
+    font-size: 18px; /* Aumenta el tamaño del texto */
+  }
+  
+  
+  /* Producto.css */
+  .Producto {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* Centra en el eje horizontal */
+    padding: 10px;
+    text-align: center; /* Ajusta la alineación del texto */
+  }
+  
+  .ImagenProducto {
+    width: 200px; /* Ajusta el ancho según tus preferencias */
+    height: auto;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .InfoProducto {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  
+  .InfoProducto h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .InfoProducto p {
+    margin-bottom: 10px;
+  }
+  
+  .InfoProducto button {
+    background-color: #FF346F;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  /* Anekke.css */
+  .Marcas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .ProductoMarca {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .ProductoMarca img {
+    max-width: 50%; /* La imagen ocupará como máximo el 100% del ancho de su contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+    border-radius: 8px;
+  }
+  
+  .ComprarButton {
+    background-color: #FF346F;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 10px; /* Ajusta el margen superior del botón */
+  }
+  
+  .Marcas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Añade espacio entre los elementos */
+  }
+  
+  .ProductoMarca {
+    width: 32%; /* Ocupa el 32% del ancho del contenedor principal (tres columnas con espacio entre ellas) */
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Añade espacio entre los elementos */
+  }

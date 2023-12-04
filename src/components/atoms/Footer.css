@@ -1,0 +1,23 @@
+.Footer {
+    background-color: #FF346F;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.company-info {
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 15px;
+}
+  
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+  
+.social-links a:hover {
+    text-decoration: underline;
+}
